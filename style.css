@@ -1,0 +1,139 @@
+h2 , h3{
+    font-size: 40px;
+}
+
+body header{
+    display:flex;
+    height: 90px;
+    border-style: solid;
+    border-color: blue;
+    justify-content: center;
+}
+
+body main .colunas{
+    display:flex;
+    justify-content:center; 
+}
+
+
+/*aqui é esquerda*/
+.coluna_esquerda{
+    display:flex;
+    flex-direction: column;
+}
+
+.cor_esquerda_vermelho{
+    margin: 30px 30px 30px 60px;
+    border-style: solid;
+    box-sizing: 20px 100px 30px 100px;
+    background-color: red;
+    padding: 20px 100px 30px 100px;
+}
+
+.cor_esquerda_paleovioletred{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: palevioletred;
+}
+
+.cor_esquerda_brown{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: brown;
+}
+
+.cor_esquerda_pink{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: pink;
+}
+
+.cor_esquerda_salmon{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: salmon;
+}
+
+/*aqui é meio*/
+.coluna_meio{
+    display:flex;
+    flex-direction: column;
+}
+
+.cor_meio_azul{
+    padding: 30px 00px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: blue;
+}
+
+.cor_meio_ciano{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: cyan;
+}
+
+.cor_meio_azulclaro{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: lightblue;
+}
+
+.cor_meio_lightskyblue{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: lightskyblue;
+}
+
+.cor_meio_lightseagreen{
+    padding: 20px 100px 30px 100px;
+    margin: 30px 30px 30px 90px ;
+    border-style: solid;
+    background-color: lightseagreen;
+}
+/*aui é direita*/
+.coluna_direita{
+    display:flex;
+    flex-direction: column;
+}
+.cor_direita_amarelo{
+    margin: 30px 30px 30px 60px;
+    border-style: solid;
+     padding: 20px 100px 30px 100px;
+     background-color: yellow;
+}
+
+.cor_direita_amareloclaro{
+    margin: 30px 30px 30px 60px;
+    border-style: solid;
+     padding: 20px 100px 30px 100px;
+     background-color: lightyellow;
+}
+
+.cor_direita_papayawhip{
+    margin: 30px 30px 30px 60px;
+    border-style: solid;
+     padding: 20px 100px 30px 100px;
+     background-color:papayawhip ;
+}
+ 
+.cor_direita_peachpuff{
+    margin: 30px 30px 30px 60px;
+    border-style: solid;
+     padding: 20px 100px 30px 100px;
+     background-color:peachpuff ;
+}
+
+.cor_direita_palegoldenrod{
+    margin: 30px 30px 30px 60px;
+    border-style: solid;
+     padding: 20px 100px 30px 100px;
+     background-color:palegoldenrod ;
+}
